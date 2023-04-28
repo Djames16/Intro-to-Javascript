@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body  {
+    background: rgb(88,50,108);
+background: linear-gradient(117deg, rgba(88,50,108,1) 0%, rgba(214,184,138,1) 100%);
+font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    min-height: 100vh;
+}
+h1,h2{
+    text-decoration: underline; 
+    font-style: italic;
+}
+
+a,h1,h3,p,label{
+    color:whitesmoke
+}
+.text-purple {color:#58326c;
+}
