@@ -4,10 +4,11 @@ let minutes = 0
 
 let digits = document.getElementById('digits')
 
+let startButton = document.getElementById('Start-btn')
 let interval;
 
 function start () {
-    reset()
+    startButton.disabled = true
 
     interval = setInterval(function () {
         milliseconds = milliseconds + 10
@@ -29,6 +30,7 @@ function start () {
 }
 function stop () {
     clearInterval(interval)
+    startButton.disabled = false
 }
 function reset () {
     stop()
