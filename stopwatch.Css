@@ -11,12 +11,14 @@ h1,h2{
     text-decoration: underline; 
     font-style: italic;
 }
-button { background-color: ;
+button { 
+    background-color: rgb(244, 194, 194) ;
+    color: rgb(137,207,240);
+    border-radius: 4px;
+    border-style: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin:2px 0;
+    cursor:pointer;
 
-}
-
-a,h1,h3,p,label{
-    color:whitesmoke
-}
-.text-purple {color:#58326c;
 }

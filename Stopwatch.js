@@ -34,9 +34,18 @@ function stop () {
 }
 function reset () {
     stop()
-
     seconds = 0
     milliseconds = 0
     minutes = 0
     digits.innerHTML = String(minutes).padStart(2,'0') + ':' + String(seconds).padStart(2,'0') + ":" + String(milliseconds).padStart(2,'0')
+}
+
+function addLap () {
+  
+const node = document.createElement("li");
+
+node.textContent = String(minutes).padStart(2,'0') + ':' + String(seconds).padStart(2,'0') + ":" + String(milliseconds).padStart(2,'0')
+
+document.getElementById("myList").appendChild(node);
+
 }
